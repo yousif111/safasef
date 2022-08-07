@@ -1,0 +1,27 @@
+if game.PlaceId == (443406476) then -- Break In Story Lobby
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Project-Lazarus_/main/No%20More%20Life%233333", true))()
+ elseif game.PlaceId == (286090429) then -- Break In Story Main
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/ArasnalScript/main/Script%20Arasnal", true))()
+ elseif game.PlaceId == (5956785391) then -- Break In Story Main
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Spin/main/Auto%20Spin", true))()
+ elseif game.PlaceId == (9551640993) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Mining-Silmlitor/main/min2", true))()
+elseif game.PlaceId == (10376627539) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Pubg-Arabic/main/pubg%20arabic", true))()
+ elseif game.PlaceId == (8884334497) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Mining-Clicker-Simulator/main/Mining%20Clicker%20Simulator", true))()
+ elseif game.PlaceId == (1962086868) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Tower-of-Hell/main/Tower%20of%20Hell", true))()
+ elseif game.PlaceId == (3101667897) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Legends-Of-Speed-/main/Legends%20Of%20Speed", true))()
+elseif game.PlaceId == (5326405001) then -- Break In Story Main
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Base-Battles/main/BaseBattles", true))()
+ else
+     game.StarterGui:SetCore(
+         "SendNotification",
+         {
+             Title = "Game Not Supported Yet",
+             Text = "Try Again Later"
+         }
+     )
+ end
